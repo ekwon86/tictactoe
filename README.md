@@ -1,14 +1,17 @@
-# c8_tictactoe
+# Tic-Tac-Toe
 
-### REQUIREMENTS
-- Must have at least 2 players
-- Basically follow tic-tac-toe game play (ie alternating players, 3 numbers in a row to win.
-- Must have dynamic game board size (any number from 3x3 to 20x20)
-- Players must be displayed.  The turn of the player must be displayed
-- Mystery requirement... revealed soon!
-- 
+### Overview
 
-### Instructions for participants:
-- Project lead fork this repo
-- Add other team members as participants on your repo
-- Other team members clone the repo from the project lead
+This a calculator that takes in two operands and an operator and performs calculations. 
+
+### Features I have to implement: 
+- [x] **Use Object Oriented Javascript** 
+- [ ] **Exponent**
+- [ ] **Parantheses**
+- [ ] **Order of Operations**
+
+### [LIVE DEMO](http://ekwon86.github.io/tictactoe)
+
+
+
+
