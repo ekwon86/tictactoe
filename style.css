@@ -172,3 +172,67 @@ body {
     transition: opacity .2s linear, none;
     top: 20vh;
 }
+
+@media (min-width: 320px) and (max-width: 579px) {
+    .title {
+        font-size: 7vh;
+        text-shadow: 1px 1px 1px black;
+        margin-top: 15px;
+    }
+
+    .modal-content {
+        margin-left: 4px;
+    }
+
+    .modal.fade {
+        top: 10vh;
+    }
+
+    .stat-container {
+        position: absolute;
+    }
+
+    .start-game-button {
+        padding: 2vh 10vw;
+        font-size: 4vh;
+        margin-left: -5px;
+    }
+
+    .modal-title {
+        font-size: 26px;
+    }
+
+    .cells {
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    .game-area {
+        height: 70%;
+    }
+
+    .x-wins, .o-wins {
+        width: 75vw;
+        height: 35vh;
+        top: 13%;
+        left: 13%;
+        font-size: 40px;
+    }
+
+    .x-wins-img, .o-wins-img {
+        width: 30vw;
+        height: 20vh;
+        margin-top: 1.5vh;
+    }
+
+    .cats-game {
+        width: 68vw;
+        height: 28vh;
+        top: 18%;
+        left: 16%;
+        font-size: 40px;
+    }
+
+    .catsgame-img {
+        width: 35vw;
+    }
+}

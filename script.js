@@ -470,6 +470,7 @@ function display(player) {
 //     localStorage.setItem(object)
 // }
 
+
 $(document).ready(function(){
     create_modal_options();
     $('.close-modal').click(function(){
@@ -482,4 +483,11 @@ $(document).ready(function(){
     $('.x-wins').hide();
     $('.o-wins').hide();
     $('.cats-game').hide();
+
+    if ( $(window).width() < 739) {
+        $(".stat-container").hide();
+    }
+    else if ($(window).width() > 739) {
+        $(".stat-container").show();
+    }
 });
