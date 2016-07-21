@@ -472,8 +472,17 @@ function display(player) {
 
 
 $(document).ready(function(){
+
+    if ( $(window).width() < 739) {
+        $(".stat-container").hide();
+    }
+
     create_modal_options();
+
     $('.close-modal').click(function(){
+        if ( $(window).width() < 739) {
+            $(".stat-container").show();
+        }
         game_board();
     });
     $('#sel1').change(function() {
@@ -484,10 +493,6 @@ $(document).ready(function(){
     $('.o-wins').hide();
     $('.cats-game').hide();
 
-    if ( $(window).width() < 739) {
-        $(".stat-container").hide();
-    }
-    else if ($(window).width() > 739) {
-        $(".stat-container").show();
-    }
+
+
 });
