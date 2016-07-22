@@ -196,7 +196,7 @@ body {
 
     .stat-container {
         position: absolute;
-        top: 56vh;
+        top: 52vh;
         height: 139px;
         width: 298px;
         margin-left: 14px;
@@ -205,7 +205,7 @@ body {
     .start-game-button {
         padding: 2vh 10vw;
         font-size: 4vh;
-        margin-left: -22px;
+        margin-left: 4px;
     }
 
     .modal-title {
@@ -213,7 +213,7 @@ body {
     }
 
     .cells {
-        box-shadow: 5px 5px 5px grey;
+        box-shadow: 0 0 1px grey;
     }
 
     .game-area {
