@@ -177,11 +177,17 @@ body {
     .title {
         font-size: 7vh;
         text-shadow: 1px 1px 1px black;
-        margin-top: 15px;
+        margin-left: 17px;
+        text-align: left;
+        margin-bottom: 0;
     }
 
     .modal-content {
         margin-left: 4px;
+    }
+
+    .modal-dialog {
+        margin: 0 45px 0 8px;
     }
 
     .modal.fade {
@@ -191,19 +197,19 @@ body {
     .stat-container {
         position: absolute;
         top: 56vh;
-        height: 27vh;
-        width: 93vw;
-        margin-left: 4vw;
+        height: 139px;
+        width: 298px;
+        margin-left: 14px;
     }
 
     .start-game-button {
         padding: 2vh 10vw;
         font-size: 4vh;
-        margin-left: -5px;
+        margin-left: -22px;
     }
 
     .modal-title {
-        font-size: 26px;
+        font-size: 23px;
     }
 
     .cells {
@@ -233,7 +239,7 @@ body {
         height: 28vh;
         top: 18%;
         left: 16%;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .catsgame-img {
@@ -254,8 +260,10 @@ body {
     }
 
     .reset_button {
-        margin-top: 1vh;
-        font-size: 3.5vh;
+        margin-top: 0;
+        margin-left: 2px;
+        font-size: 11px;
+        padding: 2px;
     }
 
     .player {
@@ -265,5 +273,10 @@ body {
 
     .score {
         margin-bottom: 3px;
+    }
+
+    .game-container{
+        height: 79vh;
+        width: 91%;
     }
 }
