@@ -173,6 +173,7 @@ body {
     top: 20vh;
 }
 
+/*************************** PORTRAIT ***************************/
 @media (min-width: 320px) and (max-width: 579px) {
     .title {
         font-size: 7vh;
@@ -279,5 +280,49 @@ body {
     .game-container{
         height: 79vh;
         width: 91%;
+    }
+}
+
+/*************************** LANDSCAPE ***************************/
+@media (min-width: 580px) and (max-width: 767px) {
+    .stat-container {
+        height: 50vh;
+        width: 20vw;
+        position: absolute;
+        right: 3vw;
+        margin-top: 10vh;
+    }
+
+    .start-game-button {
+        margin-left: 1vw;
+    }
+
+    .modal-dialog {
+        width: 75vw;
+        margin-top: 0;
+        margin-left: 12.5vw;
+    }
+
+    #myModal {
+        margin-top: -19vh;
+    }
+
+    .modal-content > * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-title {
+        font-size: 25px;
+    }
+
+    .game-area {
+        width: 75%;
+        top: -3vh;
+        position: relative;
+    }
+
+    .cells {
+        box-shadow: 3px 3px 3px grey;
     }
 }
